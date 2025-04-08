@@ -1,0 +1,669 @@
+{
+    "Flu": {
+      "symptoms": [
+        "fever",
+        "cough",
+        "sore throat",
+        "body aches",
+        "fatigue"
+      ],
+      "summary": "Influenza is a contagious respiratory illness caused by influenza viruses.",
+      "prognosis": "Most people recover within a week. Rest, hydration, and antiviral medications can help.",
+      "specialists": "General Practitioner, Infectious Disease Specialist",
+      "medical_parameters": [
+        {
+          "name": "temperature",
+          "question": "What is your body temperature? (e.g., 37°C or 98.6°F)",
+          "normal_range": "36.1-37.2°C (97-99°F)",
+          "abnormal": [
+            "≥38°C/100.4°F (high)"
+          ]
+        },
+        {
+          "name": "blood_pressure",
+          "question": "What is your blood pressure? (e.g., 120/80 mmHg)",
+          "normal_range": "120/80 mmHg",
+          "abnormal": [
+            "≥140/90 mmHg (high)",
+            "≤90/60 mmHg (low)"
+          ]
+        }
+      ]
+    },
+    "Common Cold": {
+      "symptoms": [
+        "runny nose",
+        "sneezing",
+        "sore throat",
+        "congestion",
+        "mild cough"
+      ],
+      "summary": "A viral infection of the upper respiratory tract, typically mild and self-limiting.",
+      "prognosis": "Usually resolves within 7-10 days. Rest and symptomatic treatment recommended.",
+      "specialists": "General Practitioner",
+      "medical_parameters": [
+        {
+          "name": "temperature",
+          "question": "What is your body temperature? (e.g., 37°C or 98.6°F)",
+          "normal_range": "36.1-37.2°C (97-99°F)",
+          "abnormal": [
+            "≥38°C/100.4°F (high)"
+          ]
+        }
+      ]
+    },
+    "Pneumonia": {
+      "symptoms": [
+        "severe cough",
+        "chest pain",
+        "difficulty breathing",
+        "high fever",
+        "chills"
+      ],
+      "summary": "An infection that inflames the air sacs in one or both lungs, which may fill with fluid.",
+      "prognosis": "Can be serious. Requires medical intervention, antibiotics, and possible hospitalization.",
+      "specialists": "Pulmonologist, Infectious Disease Specialist",
+      "medical_parameters": [
+        {
+          "name": "temperature",
+          "question": "What is your body temperature? (e.g., 37°C or 98.6°F)",
+          "normal_range": "36.1-37.2°C (97-99°F)",
+          "abnormal": [
+            "≥38°C/100.4°F (high)"
+          ]
+        },
+        {
+          "name": "oxygen_saturation",
+          "question": "What is your oxygen saturation level? (e.g., 98%)",
+          "normal_range": "95-100%",
+          "abnormal": [
+            "≤90% (low)"
+          ]
+        },
+        {
+          "name": "respiratory_rate",
+          "question": "What is your respiratory rate? (breaths per minute)",
+          "normal_range": "12-20 breaths/min",
+          "abnormal": [
+            "≥24 breaths/min (high)"
+          ]
+        }
+      ]
+    },
+    "Dengue": {
+      "symptoms": [
+        "high fever",
+        "severe headache",
+        "joint pain",
+        "rash",
+        "muscle pain"
+      ],
+      "summary": "A mosquito-borne viral infection prevalent in tropical and subtropical regions.",
+      "prognosis": "Most cases resolve in 1-2 weeks. Severe cases can be life-threatening and require immediate medical attention.",
+      "specialists": "Infectious Disease Specialist",
+      "medical_parameters": [
+        {
+          "name": "temperature",
+          "question": "What is your body temperature? (e.g., 37°C or 98.6°F)",
+          "normal_range": "36.1-37.2°C (97-99°F)",
+          "abnormal": [
+            "≥38°C/100.4°F (high)"
+          ]
+        },
+        {
+          "name": "platelet_count",
+          "question": "What is your platelet count? (e.g., 150,000/µL)",
+          "normal_range": "150,000-450,000/µL",
+          "abnormal": [
+            "≤100,000/µL (low)"
+          ]
+        }
+      ]
+    },
+    "COVID-19": {
+      "symptoms": [
+        "fever",
+        "dry cough",
+        "fatigue",
+        "loss of taste",
+        "shortness of breath"
+      ],
+      "summary": "A highly infectious respiratory disease caused by the SARS-CoV-2 coronavirus.",
+      "prognosis": "Varies widely. Most recover, but some develop severe complications. Vaccination and medical support crucial.",
+      "specialists": "General Practitioner, Pulmonologist, Infectious Disease Specialist",
+      "medical_parameters": [
+        {
+          "name": "temperature",
+          "question": "What is your body temperature? (e.g., 37°C or 98.6°F)",
+          "normal_range": "36.1-37.2°C (97-99°F)",
+          "abnormal": [
+            "≥38°C/100.4°F (high)"
+          ]
+        },
+        {
+          "name": "oxygen_saturation",
+          "question": "What is your oxygen saturation level? (e.g., 98%)",
+          "normal_range": "95-100%",
+          "abnormal": [
+            "≤90% (low)"
+          ]
+        },
+        {
+          "name": "respiratory_rate",
+          "question": "What is your respiratory rate? (breaths per minute)",
+          "normal_range": "12-20 breaths/min",
+          "abnormal": [
+            "≥24 breaths/min (high)"
+          ]
+        }
+      ]
+    },
+    "Heart Disease": {
+      "symptoms": [
+        "chest pain",
+        "shortness of breath",
+        "irregular heartbeat",
+        "fatigue",
+        "dizziness"
+      ],
+      "summary": "A range of conditions affecting the heart's structure and function.",
+      "prognosis": "Chronic condition requiring lifestyle changes, medication, and potential surgical interventions.",
+      "specialists": "Cardiologist",
+      "medical_parameters": [
+        {
+          "name": "blood_pressure",
+          "question": "What is your blood pressure? (e.g., 120/80 mmHg)",
+          "normal_range": "120/80 mmHg",
+          "abnormal": [
+            "≥140/90 mmHg (high)",
+            "≤90/60 mmHg (low)"
+          ]
+        },
+        {
+          "name": "cholesterol_level",
+          "question": "What is your total cholesterol level? (e.g., 200 mg/dL)",
+          "normal_range": "<200 mg/dL",
+          "abnormal": [
+            "≥240 mg/dL (high)"
+          ]
+        },
+        {
+          "name": "ECG",
+          "question": "Have you had an ECG? Describe any abnormalities.",
+          "normal_range": "Normal sinus rhythm",
+          "abnormal": [
+            "Arrhythmias, ST-segment changes"
+          ]
+        },
+        {
+          "name": "troponin_level",
+          "question": "What is your troponin level? (ng/L)",
+          "normal_range": "<14 ng/L",
+          "abnormal": [
+            "Higher than normal"
+          ]
+        },
+        {
+          "name": "echocardiogram",
+          "question": "Have you had an echocardiogram? Describe any abnormalities.",
+          "normal_range": "Normal",
+          "abnormal": [
+            "Abnormal wall motion, valve dysfunction"
+          ]
+        }
+      ]
+    },
+    "Diabetes": {
+      "symptoms": [
+        "increased thirst",
+        "frequent urination",
+        "unexplained weight loss",
+        "fatigue",
+        "blurred vision"
+      ],
+      "summary": "A metabolic disorder characterized by high blood sugar levels.",
+      "prognosis": "Manageable with medication, diet, exercise, and regular monitoring.",
+      "specialists": "Endocrinologist",
+      "medical_parameters": [
+        {
+          "name": "blood_glucose",
+          "question": "What is your fasting blood glucose level? (e.g., 100 mg/dL)",
+          "normal_range": "70-99 mg/dL",
+          "abnormal": [
+            "≥126 mg/dL (high)"
+          ]
+        },
+        {
+          "name": "HbA1c",
+          "question": "What is your HbA1c level? (e.g., 6.0%)",
+          "normal_range": "<5.7%",
+          "abnormal": [
+            "≥6.5% (high)"
+          ]
+        }
+      ]
+    },
+    "Migraine": {
+      "symptoms": [
+        "severe headache",
+        "nausea",
+        "sensitivity to light",
+        "visual disturbances",
+        "dizziness"
+      ],
+      "summary": "A neurological condition causing intense, debilitating headaches.",
+      "prognosis": "Chronic but manageable with medication, lifestyle changes, and trigger avoidance.",
+      "specialists": "Neurologist",
+      "medical_parameters": []
+    },
+    "Asthma": {
+      "symptoms": [
+        "wheezing",
+        "chest tightness",
+        "shortness of breath",
+        "cough",
+        "difficulty breathing"
+      ],
+      "summary": "A chronic respiratory condition causing inflammation and narrowing of airways.",
+      "prognosis": "Controllable with medications, inhalers, and avoiding triggers.",
+      "specialists": "Pulmonologist, Allergist",
+      "medical_parameters": [
+        {
+          "name": "peak_flow",
+          "question": "What is your peak expiratory flow rate? (PEFR)",
+          "normal_range": "Varies by age, sex, and height",
+          "abnormal": [
+            "Significant reduction from personal best"
+          ]
+        },
+        {
+          "name": "oxygen_saturation",
+          "question": "What is your oxygen saturation level? (e.g., 98%)",
+          "normal_range": "95-100%",
+          "abnormal": [
+            "≤90% (low)"
+          ]
+        }
+      ]
+    },
+    "Gastroenteritis": {
+      "symptoms": [
+        "diarrhea",
+        "vomiting",
+        "stomach cramps",
+        "fever",
+        "dehydration"
+      ],
+      "summary": "Inflammation of the stomach and intestines, often caused by viral infections.",
+      "prognosis": "Usually resolves within a few days. Hydration and rest are key to recovery.",
+      "specialists": "General Practitioner, Gastroenterologist",
+      "medical_parameters": [
+        {
+          "name": "temperature",
+          "question": "What is your body temperature? (e.g., 37°C or 98.6°F)",
+          "normal_range": "36.1-37.2°C (97-99°F)",
+          "abnormal": [
+            "≥38°C/100.4°F (high)"
+          ]
+        },
+        {
+          "name": "dehydration_signs",
+          "question": "Are you experiencing signs of dehydration? (e.g., dry mouth, decreased urination)",
+          "normal_range": "No",
+          "abnormal": [
+            "Yes"
+          ]
+        }
+      ]
+    },
+    "Tuberculosis": {
+      "symptoms": [
+        "persistent cough",
+        "weight loss",
+        "night sweats",
+        "fatigue",
+        "chest pain"
+      ],
+      "summary": "A bacterial infection that mainly affects the lungs but can spread to other organs.",
+      "prognosis": "Requires long-term antibiotic treatment. Can be severe if untreated.",
+      "specialists": "Pulmonologist, Infectious Disease Specialist",
+      "medical_parameters": [
+        {
+          "name": "temperature",
+          "question": "What is your body temperature? (e.g., 37°C or 98.6°F)",
+          "normal_range": "36.1-37.2°C (97-99°F)",
+          "abnormal": [
+            "≥38°C/100.4°F (high)"
+          ]
+        },
+        {
+          "name": "sputum_test",
+          "question": "Have you had a sputum test? What were the results?",
+          "normal_range": "Negative",
+          "abnormal": [
+            "Positive"
+          ]
+        },
+        {
+          "name": "chest_xray",
+          "question": "Have you had a chest X-ray? Describe any abnormalities.",
+          "normal_range": "Normal",
+          "abnormal": [
+            "Infiltrates, cavities"
+          ]
+        }
+      ]
+    },
+    "Malaria": {
+      "symptoms": [
+        "high fever",
+        "chills",
+        "sweating",
+        "headache",
+        "nausea"
+      ],
+      "summary": "A mosquito-borne parasitic infection common in tropical areas.",
+      "prognosis": "Can be fatal if untreated. Requires antimalarial drugs and supportive care.",
+      "specialists": "Infectious Disease Specialist",
+      "medical_parameters": [
+        {
+          "name": "temperature",
+          "question": "What is your body temperature? (e.g., 37°C or 98.6°F)",
+          "normal_range": "36.1-37.2°C (97-99°F)",
+          "abnormal": [
+            "≥38°C/100.4°F (high)"
+          ]
+        },
+        {
+          "name": "blood_smear",
+          "question": "Have you had a blood smear test? What were the results?",
+          "normal_range": "Negative",
+          "abnormal": [
+            "Positive for Plasmodium parasites"
+          ]
+        }
+      ]
+    },
+    "Typhoid": {
+      "symptoms": [
+        "high fever",
+        "abdominal pain",
+        "weakness",
+        "loss of appetite",
+        "constipation or diarrhea"
+      ],
+      "summary": "A bacterial infection spread through contaminated food and water.",
+      "prognosis": "Requires antibiotics. Recovery takes several weeks.",
+      "specialists": "Infectious Disease Specialist, Gastroenterologist",
+      "medical_parameters": [
+        {
+          "name": "temperature",
+          "question": "What is your body temperature? (e.g., 37°C or 98.6°F)",
+          "normal_range": "36.1-37.2°C (97-99°F)",
+          "abnormal": [
+            "≥38°C/100.4°F (high)"
+          ]
+        },
+        {
+          "name": "blood_culture",
+          "question": "Have you had a blood culture test? What were the results?",
+          "normal_range": "Negative",
+          "abnormal": [
+            "Positive for Salmonella Typhi"
+          ]
+        }
+      ]
+    },
+    "Hypertension": {
+      "symptoms": [
+        "headache",
+        "dizziness",
+        "blurred vision",
+        "chest pain",
+        "shortness of breath"
+      ],
+      "summary": "A condition characterized by persistently high blood pressure.",
+      "prognosis": "Manageable with lifestyle changes and medication. Can lead to severe complications if untreated.",
+      "specialists": "Cardiologist, Nephrologist",
+      "medical_parameters": [
+        {
+          "name": "blood_pressure",
+          "question": "What is your blood pressure? (e.g., 120/80 mmHg)",
+          "normal_range": "120/80 mmHg",
+          "abnormal": [
+            "≥140/90 mmHg (high)"
+          ]
+        }
+      ]
+    },
+    "Anemia": {
+      "symptoms": [
+        "fatigue",
+        "pale skin",
+        "shortness of breath",
+        "dizziness",
+        "cold hands and feet"
+      ],
+      "summary": "A condition where the blood lacks enough healthy red blood cells.",
+      "prognosis": "Manageable with dietary changes, supplements, and treatment of underlying causes.",
+      "specialists": "Hematologist",
+      "medical_parameters": [
+        {
+          "name": "hemoglobin_level",
+          "question": "What is your hemoglobin level? (g/dL)",
+          "normal_range": "12-16 g/dL (women), 13.5-17.5 g/dL (men)",
+          "abnormal": [
+            "Lower than normal range"
+          ]
+        },
+        {
+          "name": "iron_level",
+          "question": "What is your iron level? (µg/dL)",
+          "normal_range": "15-150 µg/dL",
+          "abnormal": [
+            "Lower than normal range"
+          ]
+        }
+      ]
+    },
+    "Arthritis": {
+      "symptoms": [
+        "joint pain",
+        "stiffness",
+        "swelling",
+        "reduced mobility",
+        "fatigue"
+      ],
+      "summary": "Inflammation of the joints causing pain and stiffness.",
+      "prognosis": "Chronic but manageable with medication, therapy, and lifestyle adjustments.",
+      "specialists": "Rheumatologist, Orthopedic Surgeon",
+      "medical_parameters": [
+        {
+          "name": "ESR",
+          "question": "What is your Erythrocyte Sedimentation Rate (ESR)? (mm/hr)",
+          "normal_range": "0-20 mm/hr",
+          "abnormal": [
+            "Higher than normal range"
+          ]
+        },
+        {
+          "name": "CRP",
+          "question": "What is your C-Reactive Protein (CRP) level? (mg/L)",
+          "normal_range": "<10 mg/L",
+          "abnormal": [
+            "Higher than normal range"
+          ]
+        }
+      ]
+    },
+    "Stroke": {
+      "symptoms": [
+        "sudden numbness",
+        "difficulty speaking",
+        "vision problems",
+        "loss of balance",
+        "severe headache"
+      ],
+      "summary": "A medical emergency caused by a blockage or rupture in brain blood vessels.",
+      "prognosis": "Requires immediate medical attention. Recovery depends on severity.",
+      "specialists": "Neurologist",
+      "medical_parameters": [
+        {
+          "name": "blood_pressure",
+          "question": "What is your blood pressure? (e.g., 120/80 mmHg)",
+          "normal_range": "120/80 mmHg",
+          "abnormal": [
+            "Significantly elevated"
+          ]
+        },
+        {
+          "name": "CT_scan",
+          "question": "Have you had a brain CT scan? Describe any abnormalities.",
+          "normal_range": "Normal",
+          "abnormal": [
+            "Evidence of hemorrhage or infarction"
+          ]
+        }
+      ]
+    },
+    "Alzheimer's Disease": {
+      "symptoms": [
+        "memory loss",
+        "confusion",
+        "difficulty speaking",
+        "mood changes",
+        "trouble with daily tasks"
+      ],
+      "summary": "A progressive brain disorder that affects memory and cognitive function.",
+      "prognosis": "No cure, but treatment can help manage symptoms and slow progression.",
+      "specialists": "Neurologist, Geriatrician",
+      "medical_parameters": [
+        {
+          "name": "MMSE",
+          "question": "What was your score on the Mini-Mental State Examination (MMSE)?",
+          "normal_range": "24-30",
+          "abnormal": [
+            "Lower than 24"
+          ]
+        }
+      ]
+    },
+    "Parkinson's Disease": {
+      "symptoms": [
+        "tremors",
+        "slowed movement",
+        "rigid muscles",
+        "balance problems",
+        "speech changes"
+      ],
+      "summary": "A neurological disorder that affects movement and coordination.",
+      "prognosis": "Chronic and progressive. Medications and therapy can help manage symptoms.",
+      "specialists": "Neurologist",
+      "medical_parameters": [
+        {
+          "name": "UPDRS",
+          "question": "What was your score on the Unified Parkinson's Disease Rating Scale (UPDRS)?",
+          "normal_range": "Varies",
+          "abnormal": [
+            "Higher than normal for age"
+          ]
+        }
+      ]
+    },
+    "Hepatitis": {
+      "symptoms": [
+        "jaundice",
+        "fatigue",
+        "abdominal pain",
+        "nausea",
+        "dark urine"
+      ],
+      "summary": "Inflammation of the liver caused by viruses, alcohol, or toxins.",
+      "prognosis": "Varies depending on type. Some forms are self-limiting, while others require long-term treatment.",
+      "specialists": "Gastroenterologist, Hepatologist",
+      "medical_parameters": [
+        {
+          "name": "liver_enzymes",
+          "question": "What are your liver enzyme levels (AST, ALT)? (U/L)",
+          "normal_range": "AST: 10-40 U/L, ALT: 7-56 U/L",
+          "abnormal": [
+            "Higher than normal range"
+          ]
+        },
+        {
+          "name": "bilirubin_level",
+          "question": "What is your bilirubin level? (mg/dL)",
+          "normal_range": "0.3-1.0 mg/dL",
+          "abnormal": [
+            "Higher than normal range"
+          ]
+        }
+      ]
+    },
+    "Epilepsy": {
+      "symptoms": [
+        "seizures",
+        "loss of consciousness",
+        "confusion",
+        "unusual sensations",
+        "staring spells"
+      ],
+      "summary": "A neurological disorder causing recurrent seizures.",
+      "prognosis": "Manageable with medication. Some cases may require surgery.",
+      "specialists": "Neurologist",
+      "medical_parameters": [
+        {
+          "name": "EEG",
+          "question": "Have you had an electroencephalogram (EEG)? Describe any abnormalities.",
+          "normal_range": "Normal",
+          "abnormal": [
+            "Abnormal electrical activity"
+          ]
+        }
+      ]
+    },
+    "Depression": {
+      "symptoms": [
+        "persistent sadness",
+        "loss of interest",
+        "fatigue",
+        "difficulty concentrating",
+        "changes in appetite"
+      ],
+      "summary": "A mental health disorder affecting mood and daily life.",
+      "prognosis": "Treatable with therapy, medication, and lifestyle changes.",
+      "specialists": "Psychiatrist, Psychologist",
+      "medical_parameters": [
+        {
+          "name": "PHQ-9",
+          "question": "What was your score on the Patient Health Questionnaire-9 (PHQ-9)?",
+          "normal_range": "0-4 (minimal)",
+          "abnormal": [
+            "Higher than 4"
+          ]
+        }
+      ]
+    },
+    "Schizophrenia": {
+      "symptoms": [
+        "hallucinations",
+        "delusions",
+        "disorganized thinking",
+        "lack of motivation",
+        "social withdrawal"
+      ],
+      "summary": "A severe mental disorder affecting perception and cognition.",
+      "prognosis": "Requires lifelong treatment with medication and therapy.",
+      "specialists": "Psychiatrist",
+      "medical_parameters": [
+        {
+          "name": "PANSS",
+          "question": "What was your score on the Positive and Negative Syndrome Scale (PANSS)?",
+          "normal_range": "Varies",
+          "abnormal": [
+            "Higher than normal for age"
+          ]
+        }
+      ]
+    }
+  }
